@@ -30,9 +30,9 @@ class Config
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------
 
-    // const BASE_URL = 'http://localhost/easyappointments';
+    const BASE_URL = 'http://localhost/easyappointments';
     // const BASE_URL = 'http://20.203.104.46/easyappointments_poc';
-    const BASE_URL = 'http://20.203.104.46/easyappointments';
+    // const BASE_URL = 'http://20.203.104.46/easyappointments';
 
     const LANGUAGE = 'english';
     const DEBUG_MODE = false;
