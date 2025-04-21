@@ -104,7 +104,7 @@ class CI_Config {
 			}
 			else
 			{
-				$base_url = 'http://localhost/';
+				$base_url = 'http://20.203.104.46/easyappointments_poc';
 			}
 
 			$this->set_item('base_url', $base_url);

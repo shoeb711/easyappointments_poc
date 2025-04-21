@@ -30,7 +30,7 @@ if ($request_uri === '.') {
     $request_uri = '';
 }
 
-$config['base_url'] = !is_cli() ? trim($protocol . $domain . $request_uri, '/') : 'http://localhost/';
+$config['base_url'] = !is_cli() ? trim($protocol . $domain . $request_uri, '/') : 'http://20.203.104.46/easyappointments_poc';
 
 /*
 |--------------------------------------------------------------------------
