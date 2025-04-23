@@ -35,7 +35,7 @@ class Config
     // const BASE_URL = 'http://20.203.104.46/easyappointments';
 
     const LANGUAGE = 'english';
-    const DEBUG_MODE = false;
+    const DEBUG_MODE = true;
 
     // ------------------------------------------------------------------------
     // DATABASE SETTINGS
