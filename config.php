@@ -44,7 +44,7 @@ class Config
     const DB_HOST = 'localhost';
     const DB_NAME = 'easyappointments';
     const DB_USERNAME = 'root';
-    const DB_PASSWORD = '';
+    const DB_PASSWORD = 'eapassword';
 
     // ------------------------------------------------------------------------
     // GOOGLE CALENDAR SYNC
