@@ -1,21 +1,19 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
-// Add custom values by settings them to the $config array.
-// Example: $config['smtp_host'] = 'smtp.gmail.com';
-// @link https://codeigniter.com/user_guide/libraries/email.html
-
 $config['useragent'] = 'Easy!Appointments';
-$config['protocol'] = 'mail'; // or 'smtp'
-$config['mailtype'] = 'html'; // or 'text'
-// $config['smtp_debug'] = '0'; // or '1'
-// $config['smtp_auth'] = TRUE; //or FALSE for anonymous relay.
-// $config['smtp_host'] = '';
-// $config['smtp_user'] = '';
-// $config['smtp_pass'] = '';
-// $config['smtp_crypto'] = 'ssl'; // or 'tls'
-// $config['smtp_port'] = 25;
-// $config['from_name'] = '';
-// $config['from_address'] = '';
-// $config['reply_to'] = '';
+$config['protocol'] = 'smtp';
+$config['mailtype'] = 'html';
+
+$config['smtp_host'] = 'smtp.gmail.com';
+$config['smtp_auth'] = TRUE;
+$config['smtp_user'] = 'shaikhshoeb711@gmail.com';
+$config['smtp_pass'] = 'davzxrxzctyznkag'; // Use your Gmail **App Password** here
+$config['smtp_crypto'] = 'tls';
+$config['smtp_port'] = 587;
+
+$config['from_name'] = 'Virtual Visit Admin';
+$config['from_address'] = 'shaikhshoeb711@gmail.com'; // same as smtp_user
+$config['reply_to'] = 'shaikhshoeb711@gmail.com'; // optional, can be different
+
 $config['crlf'] = "\r\n";
 $config['newline'] = "\r\n";
